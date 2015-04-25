@@ -10,3 +10,4 @@ cd editorconfig-vim
 ./mkzip.sh
 cd "$HOME/.vim"
 unzip "$TEMPDIR/editorconfig-vim/editorconfig-vim-.zip"
+rm -rf "$TEMPDIR"
