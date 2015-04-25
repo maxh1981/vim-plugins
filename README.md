@@ -1,7 +1,9 @@
 # Introduction
 
-This is a set of *vim* plugins for TC Huang.
+Installs a set of vim plugins.
 
 # Installation
 
-``$ bin/setup.sh``
+```
+$ bin/setup.sh
+```
