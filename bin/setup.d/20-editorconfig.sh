@@ -5,7 +5,7 @@ set -e
 TEMPDIR=$(mktemp -d)
 
 cd "$TEMPDIR"
-git clone git@bitbucket.org:editorconfig/editorconfig-vim.git
+git clone https://github.com/editorconfig/editorconfig-vim.git
 cd editorconfig-vim
 ./mkzip.sh
 cd "$HOME/.vim"
