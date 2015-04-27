@@ -3,4 +3,4 @@
 set -e
 
 cd "$HOME/.vim/bundle"
-git clone git://github.com/vim-scripts/vimwiki.git
+git clone https://github.com/vim-scripts/vimwiki.git
