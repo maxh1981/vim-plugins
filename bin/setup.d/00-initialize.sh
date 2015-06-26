@@ -7,6 +7,10 @@ if [ -f "$HOME/.vimrc" ]; then
 fi
 
 if [ -d "$HOME/.vim" ]; then
+	if [ -d "$HOME/.vim.backup" ]; then
+		rm -rf "$HOME/.vim.backup"
+	fi
+
 	mv "$HOME/.vim" "$HOME/.vim.backup"
 fi
 
