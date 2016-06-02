@@ -2,7 +2,7 @@
 
 set -e
 
-TEMPDIR=$(mktemp -d)
+TEMPDIR=$(mktemp -d -p $PWD)
 
 cd "$TEMPDIR"
 git clone https://github.com/editorconfig/editorconfig-vim.git
