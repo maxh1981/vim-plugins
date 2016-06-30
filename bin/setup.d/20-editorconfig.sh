@@ -5,7 +5,9 @@ set -e
 TEMPDIR=$(mktemp -d -p $PWD)
 
 cd "$TEMPDIR"
-wget https://github.com/editorconfig/editorconfig-vim/archive/master.zip
+git clone https://github.com/maxh1981/editorconfig-vim.git
+cd editorconfig-vim
+./mkzip.sh
 cd "$HOME/.vim"
-unzip "$TEMPDIR/master.zip"
+unzip "$TEMPDIR/editorconfig-vim/editorconfig-vim-.zip"
 rm -rf "$TEMPDIR"
