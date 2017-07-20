@@ -24,3 +24,5 @@ inoremap <F12> <C-o>:syntax sync fromstart<CR>
 
 set statusline=%F%=%c,%l/%L
 set laststatus=2
+
+map <silent> <C-n> :NERDTreeToggle<CR>
