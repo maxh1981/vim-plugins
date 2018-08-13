@@ -32,5 +32,7 @@ autocmd BufWinEnter * NERDTreeMirror
 
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
+let g:ctrlp_use_caching = 0
+let g:ctrlp_custom_ignore = '.venv\|.git\|node_modules'
 
 set nofoldenable
