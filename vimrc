@@ -8,6 +8,7 @@ Plugin 'scrooloose/nerdtree.git'
 Plugin 'plasticboy/vim-markdown.git'
 Plugin 'scrooloose/syntastic.git'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'godlygeek/tabular.git'
 
 Plugin 'groovy.vim'
 
@@ -34,6 +35,9 @@ let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
 let g:syntastic_cpp_config_file = '.syntastic_cpp_config'
 let g:ctrlp_use_caching = 0
-let g:ctrlp_custom_ignore = '.venv\|.git\|node_modules'
+let g:ctrlp_custom_ignore = '.venv\|\.git\|node_modules\|_book'
+let g:syntastic_python_python_exec = 'python3'
 
 set nofoldenable
+
+xnoremap p pgvy
