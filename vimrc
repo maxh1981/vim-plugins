@@ -41,3 +41,5 @@ let g:syntastic_python_python_exec = 'python3'
 set nofoldenable
 
 xnoremap p pgvy
+
+set matchpairs+=<:>
