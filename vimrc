@@ -43,3 +43,5 @@ set nofoldenable
 xnoremap p pgvy
 
 set matchpairs+=<:>
+
+set scrolloff=9999 " keep cursor in the middle of the screen
